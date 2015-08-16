@@ -1,0 +1,115 @@
+input.add { border: 0; padding: 4px; *padding-bottom: 0; height: 14px; font: 11px "Lucida Grande", Verdana;  width: 500px; }
+	input.add:focus { outline: 0 }
+	div.input-box { padding: 4px 0px; border: 1px solid #999999; width: 550px; }
+	
+	.form_tags { margin-bottom: 10px; }
+	
+	/* Setting widget width example */
+	.textboxlist { width: 550px; }
+	
+	/* Preloader for autocomplete */
+	.textboxlist-loading { background: url('images/spinner.gif') no-repeat 380px center; }
+	
+	/* Autocomplete results styling */
+	.form_friends .textboxlist-autocomplete-result { overflow: hidden; zoom: 1; }
+	.form_friends .textboxlist-autocomplete-result img { float: left; padding-right: 10px; }
+	
+	.note { color: #666; font-size: 90%; }
+	#footer { margin: 50px; text-align: center; }
+
+	div.tags
+	{
+		color: #666666;
+		font-size: 10px;
+		text-transform: uppercase;
+	}
+	
+	span.buttonsselected
+	{
+		padding: 5px;
+		border: 1px solid black;
+		cursor: pointer;
+		background: #000;
+		color: #fff;
+	}
+	
+	span.buttons
+	{
+		padding: 5px;
+		border: 1px solid black;
+		cursor: pointer;
+		background: #99CCFF;
+		color: #000000
+	}
+	
+	span.buttonsdis
+	{
+		padding: 5px;
+		border: 1px solid black;
+		color: #666666;
+		cursor: default;
+		background: #999999;
+	}
+	
+	span.accountBalance
+	{
+		background:#333333;
+		color:#fff;
+		text-shadow: black 0.05em 0.05em 0.1em;
+		padding:5px;
+	}
+	
+	span.accountName
+	{
+		background:#CCCCCC;
+		padding:5px;
+	}
+	
+	span.selectedAccount
+	{
+		position: absolute;
+		left: 40%;
+		top: 22px;
+	}
+	
+	ol.accounts
+	{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+		ol.accounts li
+		{
+			display: inline;
+			position: relative;
+			margin-right: 10px;
+		}
+		
+	span.menucat
+	{
+		position: relative;
+		height: 105px;
+		border-right: 2px solid black;
+		padding: 0px 5px;
+		margin-right: 5px;
+	}
+	
+	span.menucatlabel
+	{
+		position: absolute;
+		background: none;
+		top: -20px;
+		color: #666666;
+		text-transform: uppercase;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		text-align: center;
+		width: inherit;
+	}
+	
+	span.accountItemLabel
+	{
+		color: #0000FF;
+		font-weight: bold;
+	}
